@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a5d6a7;
+}
+
+h1 {
+  margin: 1%;
+  color: #2E7D32;
+  background-color: #C8E6C9;
+  position: fixed;
+  padding: 1rem;
+}
+
+.container {
+  height: 50%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.inf_scroll_div {
+  width: 50%;
+  margin: 1% auto;
+  /* height: 30rem;
+  overflow: scroll; */
+}
+
+.inf_scroll_div > div {
+  border: 1px solid #1b5e20;
+  color: #1b5e20;
+  width: 50%;
+  margin: auto;
+  margin: 1% auto;
+  padding: 1%;
+}
